@@ -1,6 +1,6 @@
-Diogenes Teufelsdröckh, Professor of "Things in General" \
-[diogenes@wnw.edu](mailto:diogenes@weissnichtwo.edu)
+Hailey Robertson \
+_Data Engineer & Research Analyst_ \
+[hailey.robertson@georgetown.edu](mailto:hailey.robertson@georgetown.edu)
 
-Weissnichtwo University\
-Weissnichtwo, Germany\
-tel: (xxx) xxxx-xxxx
+Georgetown University\
+Center for Global Health Science and Security
