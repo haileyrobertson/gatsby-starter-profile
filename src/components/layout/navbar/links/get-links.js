@@ -1,15 +1,14 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faUsers } from '@fortawesome/free-solid-svg-icons';
+import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBook, faUsers } from "@fortawesome/free-solid-svg-icons"
 
-import Link from '../../../link/link';
+import Link from "../../../link/link"
 
-const getLinks = (links) => {
+const getLinks = links => {
   const linkComponents = {
     people: (
       <Link key="people" to="/people">
-        <FontAwesomeIcon icon={faUsers} />
-        People
+        Contact
       </Link>
     ),
     publications: (
@@ -18,13 +17,9 @@ const getLinks = (links) => {
         Publications
       </Link>
     ),
-  };
+  }
 
-  return (
-    <>
-      {links.map((link) => linkComponents[link])}
-    </>
-  );
-};
+  return <>{links.map(link => linkComponents[link])}</>
+}
 
-export default getLinks;
+export default getLinks
