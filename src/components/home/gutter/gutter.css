@@ -8,13 +8,13 @@
 
 .gutter_left {
   margin-right: 1rem;
-  background-color: #0c1125;
+  background-color: var(--color-background);
   mask-position: -20px 0;
 }
 
 .gutter_right {
   margin-left: 1rem;
-  background-color: #0c1125;
+  background-color: var(--color-background);
   mask-position: right 100px;
 }
 

@@ -17,7 +17,7 @@
 }
 .home__landing h1,
 .home__landing-description {
-  color: var(--color-font-light)
+  color: var(--color-font-light);
 }
 .home__landing-description {
   font-weight: bold;
