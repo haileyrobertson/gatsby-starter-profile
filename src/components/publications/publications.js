@@ -1,8 +1,5 @@
 import PropTypes from "prop-types"
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBook } from "@fortawesome/free-solid-svg-icons"
-
 import "./publications.css"
 import PublicationList from "./list"
 
@@ -10,10 +7,27 @@ const Publications = ({ publications }) => (
   <div className="publications">
     <section>
       <header>
-        <h1>Publications</h1>
-        <FontAwesomeIcon icon={faBook} size="2x" />
+        <h1>Peer-Reviewed Publications</h1>
       </header>
       <PublicationList publications={publications} />
+    </section>
+    <section>
+      <header>
+        <h1>Publications in Review</h1>
+      </header>
+      <h6>List</h6>
+    </section>
+    <section>
+      <header>
+        <h1>Works in Progress</h1>
+      </header>
+      <h6>List</h6>
+    </section>
+    <section>
+      <header>
+        <h1>Public Scholarship</h1>
+      </header>
+      <h6>List</h6>
     </section>
   </div>
 )
