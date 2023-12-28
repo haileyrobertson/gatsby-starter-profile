@@ -6,7 +6,7 @@
 .publications header {
   align-items: center;
   display: flex;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .publications header h1 {
   margin-bottom: 0;
@@ -16,7 +16,7 @@
   margin-left: 1rem;
 }
 .publications section {
-  margin: 2rem 0;
+  margin: 1rem 0;
   max-width: 960px;
   width: calc(100vw - 3rem);
 }
@@ -32,7 +32,7 @@
   margin-bottom: 2rem;
 }
 .publications ul > li:not(:last-of-type) {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .publications__links > a:not(:last-of-type) {
