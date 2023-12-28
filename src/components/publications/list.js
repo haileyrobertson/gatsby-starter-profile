@@ -10,15 +10,14 @@ const createAuthorSeparator = (index, numberOfAuthors) => {
   if (index < numberOfAuthors - 2) {
     return ", "
   }
-  return " and "
+  return ", and "
 }
-
 const formatAuthors = (authors, title) => {
   const numberOfAuthors = authors.length
   return authors.map((author, index) => {
     return (
       <Fragment key={`${author}-${title}`}>
-        {author}
+        {author === "Robertson H" ? <strong>{author}</strong> : author}
         {createAuthorSeparator(index, numberOfAuthors)}
       </Fragment>
     )
