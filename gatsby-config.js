@@ -26,6 +26,10 @@ module.exports = {
         text: "LinkedIn",
         link: "https://www.linkedin.com/in/hailey-robertson",
       },
+      {
+        text: "Twitter",
+        link: "https://www.twitter.com/haileydrob",
+      },
     ],
   },
   plugins: [
