@@ -1,0 +1,50 @@
+.cv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.cv header {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.cv header h1 {
+  margin-bottom: 0;
+}
+.cv section {
+  margin: 2rem 0;
+  max-width: 960px;
+  width: calc(100vw - 3rem);
+}
+
+.cv ul {
+  list-style: none;
+  padding-left: 0;
+}
+.cv ul > li {
+  line-height: 2rem;
+}
+.cv ul:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+.cv ul > li:not(:last-of-type) {
+  margin-bottom: 1.5rem;
+}
+
+/* Additional styles if needed */
+.cv__links > a:not(:last-of-type) {
+  margin-right: 0.8rem;
+}
+.cv__links-year {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 1.2rem 0;
+}
+.cv__links-year > a:not(:last-of-type) {
+  margin-right: 0.8rem;
+}
+
+.underline {
+  text-decoration: underline;
+}

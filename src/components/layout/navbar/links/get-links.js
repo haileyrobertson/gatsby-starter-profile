@@ -9,6 +9,11 @@ const getLinks = links => {
         Publications
       </Link>
     ),
+    cv: (
+      <Link key="cv" to="/cv">
+        CV
+      </Link>
+    ),
   }
 
   return <>{links.map(link => linkComponents[link])}</>
