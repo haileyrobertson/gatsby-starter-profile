@@ -25,7 +25,7 @@ body.dark-mode {
   --color-background: #0c1125;
   --color-font: #eeedeb;
   --color-font-contrast: #0c1125;
-  --color-font-dark: #0c1125;
+  --color-font-dark: #333;
   --color-font-light: #eeedeb;
   --color-input-focus: rgba(59, 153, 252, 0.7);
   --color-link: #5fc6c9;
