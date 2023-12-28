@@ -6,11 +6,6 @@ import Link from "../../../link/link"
 
 const getLinks = links => {
   const linkComponents = {
-    people: (
-      <Link key="people" to="/people">
-        Contact
-      </Link>
-    ),
     publications: (
       <Link key="publications" to="/publications">
         <FontAwesomeIcon icon={faBook} />

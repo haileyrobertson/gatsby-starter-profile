@@ -4,11 +4,7 @@ import React from "react"
 import Link from "../../link/link"
 
 const routes = {
-  contact: "/#contact",
-  opportunities: "/#opportunities",
-  people: "/contact",
   publications: "/publications",
-  research: "/#research",
 }
 
 const Links = ({ links }) =>
