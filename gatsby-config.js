@@ -11,7 +11,7 @@ module.exports = {
     // primaryLinks: ["research", "opportunities", "publications"],
     // List of PubMed IDs to include on the publication page. Delete this field
     // and/or all entires if you do not want the publication page.
-    publications: [37500627],
+    publications: [37500627, 35404134],
     // An array of links to display in the page footer. Include as many as you like
     // (not just the ones here). If either the link or text is missing,
     // it will not be shown. Delete this field and/or all entires to disable
