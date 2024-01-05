@@ -16,7 +16,7 @@ body.light-mode {
   --color-font-light: #f2f2f2;
   --color-input-focus: rgba(59, 153, 252, 0.7);
   --color-link: #3d8183;
-  --color-link-visited: #214647;
+  --color-link-visited: #3d8183;
   --color-primary: #3d8183;
   background-color: var(--color-background);
   color: var(--color-font);
@@ -28,9 +28,9 @@ body.dark-mode {
   --color-font-dark: #333;
   --color-font-light: #eeedeb;
   --color-input-focus: rgba(59, 153, 252, 0.7);
-  --color-link: #5fc6c9;
+  --color-link: #3d8183;
   --color-link-visited: #3d8183;
-  --color-primary: #5fc6c9;
+  --color-primary: #3d8183;
   background-color: var(--color-background);
   color: var(--color-font);
 }
