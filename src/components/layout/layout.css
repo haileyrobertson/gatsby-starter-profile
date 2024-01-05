@@ -48,7 +48,9 @@ header,
 main,
 menu,
 nav,
-section,
+section {
+  margin-bottom: 0;
+}
 details {
   display: block;
 }
@@ -285,7 +287,7 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -360,7 +362,7 @@ hgroup {
 ul {
   margin-left: 1.45rem;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 1.45rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
